@@ -3,80 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Git Commands</title>
+  <title>Opis poleceń Git</title>
 </head>
 <body>
-
-<h1>Git Commands</h1>
-
-<h2>1. git config --global user.name "Your Name"</h2>
-<p>Ustawienie globalnej konfiguracji użytkownika w Git z nazwą użytkownika.</p>
-
-<h2>2. git reset HEAD</h2>
-<p>Anulowanie zatwierdzenia (commit) i usunięcie zmian ze stage area.</p>
-
-<h2>3. gitk --all</h2>
-<p>Otwarcie interaktywnego narzędzia do przeglądania historii wizualnej.</p>
-
-<h2>4. git branch --merged</h2>
-<p>Wylistowanie gałęzi, które zostały scalone z aktualną gałęzią.</p>
-
-<h2>5. git branch "branch" "commit hash"</h2>
-<p>Utworzenie nowej gałęzi na podanym commicie.</p>
-
-<h2>6. git pull "remote" "branch"</h2>
-<p>Pobranie zmian z odległego repozytorium i zmergowanie ich z aktualną gałęzią.</p>
-
-<h2>7. git config --global user.email "your.email@example.com"</h2>
-<p>Ustawienie globalnego adresu e-mail użytkownika w Git.</p>
-
-<h2>8. git diff --staged</h2>
-<p>Pokazanie różnic między ostatnim zatwierdzeniem a stage area.</p>
-
-<h2>9. git checkout -b "branch"</h2>
-<p>Utworzenie nowej gałęzi i przejście do niej.</p>
-
-<h2>10. git log --graph --all</h2>
-<p>Wizualizacja historii z grafem wszystkich gałęzi.</p>
-
-<h2>11. git branch -d "branch"</h2>
-<p>Usunięcie lokalnej gałęzi (po upewnieniu się, że została scalona).</p>
-
-<h2>12. git fetch "remote" "branch"</h2>
-<p>Pobranie informacji o zmianach na odległej gałęzi, bez ich mergowania.</p>
-
-<h2>13. git config --global color.ui true</h2>
-<p>Włączenie kolorowania w interfejsie Git.</p>
-
-<h2>14. git commit "filename"</h2>
-<p>Zatwierdzenie zmian w określonym pliku.</p>
-
-<h2>15. git branch -v</h2>
-<p>Wylistowanie gałęzi wraz z ich ostatnimi zatwierdzeniami.</p>
-
-<h2>16. git push "remote" "branch"</h2>
-<p>Wysłanie lokalnych zatwierdzeń na odległe repozytorium.</p>
-
-<h2>17. git log "branch" --not "branch"</h2>
-<p>Wypisanie zatwierdzeń na jednej gałęzi, które nie są na drugiej.</p>
-
-<h2>18. git bisect (start, bad, good, reset)</h2>
-<p>Automatyczne szukanie commita, który wprowadził zmiany.</p>
-
-<h2>19. git commit -a -m "Commit message"</h2>
-<p>Zatwierdzenie wszystkich zmian (zarówno w stage area, jak i niezatwierdzonych) z komunikatem.</p>
-
-<h2>20. git add .</h2>
-<p>Dodanie wszystkich zmian do stage area.</p>
-
-<h2>21. git checkout "branch"</h2>
-<p>Przełączenie się na inną gałąź.</p>
-
-<h2>22. git remote add "remote_name" "git_url"</h2>
-<p>Dodanie odległego repozytorium pod nazwą "remote_name" z danym URL-em.</p>
-
-<h2>23. git blame -C "filename"</h2>
-<p>Śledzenie zmian w pliku, włącznie z przenoszeniem kodu (copy detection).</p>
-
+<h1>Lista poleceń Git</h1>
+<ul>
+  <li>
+    <h2>Polecenie Git Log</h2>
+    <p>
+      Polecenie <code>git log "branch" --not "branch"</code> jest używane do wyświetlenia historii commitów,
+      które są obecne w gałęzi o nazwie <code>"branch"</code>, ale nie są obecne w innej gałęzi o tej samej nazwie.
+    </p>
+    <p>
+      Ta komenda jest przydatna do śledzenia zmian między gałęziami i identyfikowania commitów, które zostały
+      dodane do jednej gałęzi, ale nie zostały jeszcze dołączone do drugiej.
+    </p>
+  </li>
+  <!-- Dodaj kolejne podpunkty według potrzeb -->
+</ul>
 </body>
 </html>
