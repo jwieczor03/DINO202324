@@ -19,7 +19,7 @@ Zadanie zaliczą te osoby, które łącznie:
  * Pull Request zostanie zatwierdzony i zmergowany do głównego repozytorium
 
 Harmonogram:
- * Pull request należy zrobić do 22.11.2022
+ * Pull request należy zrobić do 22.11.2023
  * po zgłoszeniu należy dbać o swojego pull requesta, w szczególności mergować z aktualnym stanem repozytorium, gdyż tylko wtedy PR może zostać zaakceptowany
  * ostateczny termin zatwierdzenia PR to koniec 20 grudnia
  
